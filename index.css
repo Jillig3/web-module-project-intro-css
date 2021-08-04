@@ -44,12 +44,18 @@ body{
     font-size:1.6rem;
     line-height:1.5;
     color:#4f4f4f; /*accessibility*/
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
 }
 section{
     padding:4% 0;
 }
 a{
     text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*header section styles*/
@@ -97,3 +103,24 @@ nav a{
     position:absolute;
     top: 45%;
 }
+.content{
+    background-color:#DDB9A3;
+    text-align: center;
+    color:#fff;
+    width:95%;
+    align-content: center;
+    margin:auto;
+}
+.campfire, .rv{
+    text-align: center;
+}
+.campfire img, .rv img{
+    width:8%;
+}
+.bold{
+    font-weight: bold;
+}
+.banner img{
+    width:100%;
+}
+ 
