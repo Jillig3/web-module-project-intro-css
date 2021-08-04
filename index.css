@@ -113,6 +113,7 @@ nav a{
 }
 .campfire, .rv{
     text-align: center;
+    margin: 3%;
 }
 .campfire img, .rv img{
     width:8%;
@@ -120,7 +121,12 @@ nav a{
 .bold{
     font-weight: bold;
 }
-.banner img{
-    width:100%;
-}
- 
+ .banner{
+     background-image: url("assets/footer_img.jpg");
+     height: 50vh;
+     background-size:cover;
+     background-repeat: no-repeat;
+     }
+     .h2{
+         margin:5% 0;
+     }
