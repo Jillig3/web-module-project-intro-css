@@ -102,6 +102,9 @@ nav a{
 .right{
     width:60%;
 }
+.right h2{
+    margin:1em 0;
+}
 .content{
     background-color:#DDB9A3;
     text-align: center;
@@ -109,10 +112,22 @@ nav a{
     width:95%;
     align-content: center;
     margin:auto;
+    padding:1%;
+    
+}
+.content p{
+    margin-bottom: 1em;
+}
+.content p:last-child{
+    margin-bottom: 0;
+
 }
 .campfire, .rv{
     text-align: center;
     margin: 3%;
+}
+.camping{
+    padding-top: 0%;
 }
 .campfire img, .rv img{
     width:8%;
@@ -126,6 +141,6 @@ nav a{
      background-size:cover;
      background-repeat: no-repeat;
      }
-     .h2{
-         margin:5% 0;
-     }
+footer{
+    background-color:#F9E7DD;
+}
